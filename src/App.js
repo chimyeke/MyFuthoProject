@@ -75,7 +75,7 @@ const App = () => {
           >
             <BookOpen className="h-8 w-8 text-gray-800 mr-2" />
             <h1 className="text-xl font-bold text-gray-900 hover:text-gray-700 transition-colors">
-              OurLectures
+              Department Lectures
             </h1>
           </div>
 
@@ -323,7 +323,7 @@ const App = () => {
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Courses</h2>
 
           {/* Course Tabs */}
-          <div className="border-b border-gray-200 mb-6">
+          <div className="border-b border-gray-200 mb-6 max-w-full sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto text-sm sm:text-base">
             <nav className="-mb-px flex space-x-8 overflow-x-auto">
               {Object.keys(lecturesByCourse).map((course) => (
                 <button
@@ -753,9 +753,6 @@ const App = () => {
       <footer className="bg-gray-800 text-white py-6 mt-auto">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="text-gray-300">Consolidating Technology in Medicine</p>
-          <p className="text-sm text-gray-400 mt-2">
-            Department Lecture Management System
-          </p>
         </div>
       </footer>
     </div>
