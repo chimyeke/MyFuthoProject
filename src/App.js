@@ -75,7 +75,7 @@ const App = () => {
           >
             <BookOpen className="h-8 w-8 text-gray-800 mr-2" />
             <h1 className="text-xl font-bold text-gray-900 hover:text-gray-700 transition-colors">
-              Department Lectures
+              OurLectures
             </h1>
           </div>
 
